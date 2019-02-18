@@ -1,7 +1,6 @@
 
 const wordCounter = function (str) {
-  const words = str.split(" ");
-  return words.length
+  return str.split(" ").length;
 }
 
 export default wordCounter;
