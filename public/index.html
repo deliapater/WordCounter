@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Word Counter</title>
+	<script src="./js/bundle.js"></script>
+</head>
+<body>
+	<div id="app">
+  <h1>WORD COUNTER</h1>
+  <h2>Enter some text:</h2>
+  <textarea id="textInput" v-model="textInput" name="textInput" rows="8" cols="80"></textarea><br>
+  <button v-on:click="wordCount">Count Words</button>
+  <h2>This phrase contains {{ number }} words</h2>
+	</div>
+</body>
+</html>
