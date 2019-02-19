@@ -13,7 +13,7 @@
   <h2>Enter some text:</h2>
   <textarea id="textInput" v-model="textInput" name="textInput" rows="8" cols="80"></textarea><br>
   <button v-on:click="wordCount">Count Words</button>
-  <h2>This phrase contains {{ number }} words</h2>
+  <h2 v-if="number > 0" >This phrase contains {{ number }} words</h2>
 	</div>
 </body>
 </html>
